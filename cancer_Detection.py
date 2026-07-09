@@ -6,6 +6,9 @@ from sklearn.metrics import accuracy_score,confusion_matrix,classification_repor
 
 data = load_breast_cancer()
 
+# 0 = Benign (Not Cancerous)
+# 1 = Malignant (Cancerous)
+
 X = data.data
 y = data.target
 
